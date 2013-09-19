@@ -1,0 +1,37 @@
+{
+  "name": "robust-determinant-3",
+  "version": "0.0.0",
+  "description": "Exactly computes the determinant of a 3x3 matrix",
+  "main": "det3.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-scale": "~0.0.1",
+    "robust-sum": "~0.0.0",
+    "robust-determinant-2": "~0.0.0"
+  },
+  "devDependencies": {
+    "tape": "~1.1.0"
+	},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/robust-determinant-3.git"
+  },
+  "keywords": [
+    "robust",
+    "determinant",
+    "exact",
+    "3x3",
+    "nonoverlapping",
+    "float"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-determinant-3/issues"
+  }
+}
