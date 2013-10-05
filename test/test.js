@@ -5,9 +5,9 @@ var det3 = require("../det3.js")
 
 require("tape")(function(t) {
 
-	t.same(det3([[1, 0, 0],
-							 [0, 1, 0],
-							 [0, 0, 1]]), [1])
+  t.same(det3([[1, 0, 0],
+               [0, 1, 0],
+               [0, 0, 1]]), [1])
 
   for(var i=0; i<100; ++i) {
     var r = new Array(3)
